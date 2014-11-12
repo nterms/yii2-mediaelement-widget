@@ -1,7 +1,7 @@
 {
 	"name": "nterms/yii2-meidaelement-widget",
 	"description": "MediaElement.js widget for Yii2",
-	"keywords": ["yii2", "extension", "widget", "video", "audio, "mediaelement"],
+	"keywords": ["yii2", "extension", "widget", "video", "audio", "mediaelement"],
 	"homepage": "https://github.com/nterms/yii2-mediaelement-widget",
 	"type": "yii2-extension",
 	"license": "MIT",
