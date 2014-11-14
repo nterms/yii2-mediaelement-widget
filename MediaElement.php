@@ -5,7 +5,7 @@
 * @version 1.0.0
 */
 
-namespace nterms;
+namespace nterms\mediaelement;
 
 use Yii;
 use yii\helpers\Html;
@@ -62,6 +62,8 @@ class MediaElement extends Widget
 	 */
 	public function init()
 	{
+		//parent::init();
+		
 		if(!isset($this->options['id'])) {
             $this->options['id'] = $this->getId();
         }
