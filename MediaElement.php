@@ -86,6 +86,14 @@ class MediaElement extends Widget
 	 */
 	public function run()
 	{
+		$view = $this->getView();
+		
+		MediaElementAsset::register($view);
+		
+		$js = '$("video,audio").mediaelementplayer();';
+		
+		//$view->registerJs($js, $view::POS_READY);
+		
 		$sources = [];
 		if(!empty($this->sources)) {
 			foreach($this->sources as $source) {

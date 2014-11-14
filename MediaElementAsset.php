@@ -4,8 +4,8 @@
 * @package yii2-mediaelement-widget
 * @version 1.0.0
 */
+namespace nterms\mediaelement;
 
-namespace nterms;
 
 use yii\web\AssetBundle;
 
@@ -14,13 +14,13 @@ use yii\web\AssetBundle;
  */
 class MediaElementAsset extends AssetBundle
 {
-    public $sourcePath = __DIR__ . '/assets';
+    public $sourcePath = '@vendor/nterms/yii2-mediaelement-widget/assets/';
     public $js = [
         'mediaelement/mediaelement-and-player.min.js',
     ];
 	public $css = [
 		'mediaelement/mediaelementplayer.css',
-	],
+	];
     public $depends = [
         'yii\web\JqueryAsset',
         'yii\web\YiiAsset',
