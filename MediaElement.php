@@ -62,7 +62,7 @@ class MediaElement extends Widget
 	 */
 	public function init()
 	{
-		//parent::init();
+		parent::init();
 		
 		if(!isset($this->options['id'])) {
             $this->options['id'] = $this->getId();
@@ -92,7 +92,7 @@ class MediaElement extends Widget
 		
 		$js = '$("video,audio").mediaelementplayer();';
 		
-		//$view->registerJs($js, $view::POS_READY);
+		$view->registerJs($js, $view::POS_READY);
 		
 		$sources = [];
 		if(!empty($this->sources)) {

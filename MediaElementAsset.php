@@ -16,10 +16,12 @@ class MediaElementAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/nterms/yii2-mediaelement-widget/assets/';
     public $js = [
-        'http://mediaelementjs.com/js/mejs-2.9.2/mediaelement-and-player.min.js',
+        //'http://mediaelementjs.com/js/mejs-2.9.2/mediaelement-and-player.min.js',
+		'//cdnjs.cloudflare.com/ajax/libs/mediaelement/2.13.2/js/mediaelement-and-player.min.js',
     ];
 	public $css = [
-		'http://mediaelementjs.com/js/mejs-2.9.2/mediaelementplayer.css',
+		//'http://mediaelementjs.com/js/mejs-2.9.2/mediaelementplayer.css',
+		'//cdnjs.cloudflare.com/ajax/libs/mediaelement/2.13.2/css/mediaelementplayer.min.css',
 	];
     public $depends = [
         'yii\web\JqueryAsset',
