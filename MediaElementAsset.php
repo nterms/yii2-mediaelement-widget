@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
  */
 class MediaElementAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/mediaelement';
+    public $sourcePath = '@bower/mediaelement/build';
     public $js = [
         'mediaelement-and-player.min.js',
     ];
